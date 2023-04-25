@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, .app {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.gradient {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.gradient h1 {
+  color: #d9d9d9;
+  text-decoration: underline;
+  margin-bottom: 2rem;
+}
+
+.colorPicker {
+  display: flex;
+  gap: 5rem;
+  margin-bottom: 2rem;
+}
+
+.btnRandom {
+  padding: 15px 20px;
+  background: #358835;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btnRandom:hover {
+  background: #3e8e41;
+  transform: scale(1.05);
+}
+
+.output {
+  margin-top: 9rem;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  background: #fff;
+  padding: 10px 20px;
+}
